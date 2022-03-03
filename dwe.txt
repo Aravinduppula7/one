@@ -1,0 +1,136 @@
+ sudo yum update -y
+    2  cd /etc/yum.repos.d/
+    3  ll
+    4  sudo wget -O /etc/yum.repos.d/jenkins.repo \    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    5  ll
+    6sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+
+    7  ll
+    8  sudo yum upgrade
+    9  sudo yum install java-openjdk11 -y
+   10  sudo yum install java-1.8.0-openjdk-devel -y
+   11  ll
+   12   java -version
+   13  yum install jenkins -y
+   14  sudo amazon-linux-extras install epel -y
+   15  yum install jenkins -y
+   16  sudo systemctl daemon-reload
+   17  sudo systemctl start jenkins
+   18  systemctl status jenkins
+   19  yum install jenkins -y
+   20   sudo yum install jenkins -y
+   21  sudo systemctl enable jenkins
+   22  sudo systemctl start jenkins
+   23  Installing Java fixed this issue for me!
+   24  please try to install it like this:
+   25  sudo apt install openjdk-11-jdk
+   26  history
+======================== 1  sudo yum update -y
+    2  cd /etc/yum.repos.d/
+    3  sudo wget -O /etc/yum.repos.d/jenkins.repo \    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    4  ll
+    5  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+    6  sudo yum upgrade
+    7  sudo yum install java-1.8.0-openjdk-devel -y
+    8  java --version
+    9  java -version
+   10  sudo amazon-linux-extras install epel -y
+   11  ll
+   12  yum install jenkins -y
+   13  sudo systemctl daemon-reload
+   14  sudo systemctl start jenkins
+   15  systemctl status jenkins
+   16  serivce jenkins stop
+   17  service jenkins stop
+   18  systemctl status jenkins
+   19  sudo systemctl start jenkins
+   20  systemctl status jenkins
+   21  ll
+   22  cd /etc/yum.repos.d/
+   23  ll
+   24  sudo systemctl start jenkins
+   25  sudo systemctl enable jenkins
+   26  sudo systemctl status jenkins
+   27  sudo systemctl enable jenkins
+   28  cd /etc/yum.repos.d/
+   29  sudo systemctl start jenkins
+   30  sudo systemctl status jenkins
+   31  sudo systemctl start jenkins
+   32  sudo systemctl status jenkins
+   33  cd /etc/yum.repos.d/
+   34  sudo systemctl status jenkins
+   35  # sudo systemctl start jenkins
+   36  # sudo systemctl enable jenkins
+   37  sudo systemctl status jenkins
+   38  cd /etc/yum.repos.d/
+   39  sudo systemctl status jenkins
+   40  sudo systemctl stop jenkins
+   41  sudo systemctl status jenkins
+   42  # sudo systemctl start jenkins
+   43  sudo systemctl status jenkins
+   44  # sudo systemctl start jenkins
+   45  sudo systemctl status jenkins
+   46  service start jenkins
+   47  service jenkins start
+   48  service jenkins status
+=========================================================
+ 1  sudo yum update -y
+    2  cd /etc/yum.repos.d/
+    3  sudo wget -O /etc/yum.repos.d/jenkins.repo \    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    4  ll
+    5  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+    6  sudo yum upgrade
+    7  sudo yum install java-1.8.0-openjdk-devel -y
+    8  java --version
+    9  java -version
+   10  sudo amazon-linux-extras install epel -y
+   11  ll
+   12  yum install jenkins -y
+   13  sudo systemctl daemon-reload
+   14  sudo systemctl start jenkins
+   15  systemctl status jenkins
+   16  serivce jenkins stop
+   17  service jenkins stop
+   18  systemctl status jenkins
+   19  sudo systemctl start jenkins
+   20  systemctl status jenkins
+   21  ll
+   22  cd /etc/yum.repos.d/
+   23  ll
+   24  sudo systemctl start jenkins
+   25  sudo systemctl enable jenkins
+   26  sudo systemctl status jenkins
+   27  sudo systemctl enable jenkins
+   28  cd /etc/yum.repos.d/
+   29  sudo systemctl start jenkins
+   30  sudo systemctl status jenkins
+   31  sudo systemctl start jenkins
+   32  sudo systemctl status jenkins
+   33  cd /etc/yum.repos.d/
+   34  sudo systemctl status jenkins
+   35  # sudo systemctl start jenkins
+   36  # sudo systemctl enable jenkins
+   37  sudo systemctl status jenkins
+   38  cd /etc/yum.repos.d/
+   39  sudo systemctl status jenkins
+   40  sudo systemctl stop jenkins
+   41  sudo systemctl status jenkins
+   42  # sudo systemctl start jenkins
+   43  sudo systemctl status jenkins
+   44  # sudo systemctl start jenkins
+   45  sudo systemctl status jenkins
+   46  service start jenkins
+   47  service jenkins start
+   48  service jenkins status
+
+
+
+
+
+
+
+
+
+
+
+
