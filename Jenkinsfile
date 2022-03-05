@@ -1,17 +1,20 @@
- stages {
+
+pipeline {
+    agent any
+
+    stages {
         stage('clone scm stage') {
             steps {
                 echo 'clomg git aravind file name one repo '
-                git 'https://github.com/wakaleo/game-of-life.git'
+                git branch: 'main', credentialsId: 'aravindgithub', url: 'https://github.com/Aravinduppula7/one.git'
             }
         }
         
-        stage('mvn') {
+        stage('list of git') {
             steps {
-                echo 'war.file '
-               sh 'mvn clean install'
+                echo 'all '
+                sh 'ls -lrth'
             }
         }
-        
     }
 }
